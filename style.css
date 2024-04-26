@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* width: 100%; */
+  width: 100%;
 }
 
 html {
@@ -31,10 +31,10 @@ html {
   
   .logo-hyundai{
     max-width: 35%;
-  }p
+  }
   
   .keurmerk {
-    max-width: 7%;
+    max-width: 3%;
     max-height: 50%;
     align-items: center;
     margin: auto 0;
@@ -50,21 +50,20 @@ html {
 
   .nieuw-container {
     margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    gap: 7.14px;
     padding: 2.86px 15.71px;
     background-color: var(--light-grey);
     border-radius: 31.43px;
-    width: 25%;
+    width: 10%;
     border-radius: 1.96431rem;
     background: var(--Light-grey, #F0F0F0);
+    padding: 0;
   }
 
   .nieuw {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
   
   .header-kop-1 {
@@ -100,11 +99,11 @@ html {
   }
 
 
-  .auto-beeld-container {
+  /* .auto-beeld-container {
   }
 
   .auto-beeld {
-  }
+  } */
 
   .container-blok {
     display: block;
@@ -142,9 +141,9 @@ html {
 
   }
 
-
+/* 
   .pijl-rechts {
-  }
+  } */
 
   .pijl-links,
   .pijl-rechts {
@@ -177,20 +176,28 @@ html {
 
 @media (min-width:576px) and (max-width:992px) {
 
+  html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
   .top-balk {
     display: flex;
     justify-content: space-around;
-    height: 8.625rem;
+    height: 18.625rem;
     box-shadow: 0px 31px 81px #00104c33;
     background-color: #ffffff;
+    width: 100%;
   }
   
   .logo-hyundai{
-    max-width: 35%;
+    max-width: 50%;
   }
   
   .keurmerk {
-    max-width: 7%;
+    max-width: 5%;
     max-height: 50%;
     align-items: center;
     margin: auto 0;
@@ -203,63 +210,66 @@ html {
   }
 
   .nieuw-container {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    gap: 7.14px;
+    margin-top: 7%;
     padding: 2.86px 15.71px;
     background-color: var(--light-grey);
     border-radius: 31.43px;
-    width: 25%;
+    width: 10%;
     border-radius: 1.96431rem;
     background: var(--Light-grey, #F0F0F0);
+    padding: 1% 8%;
   }
 
   .nieuw {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2rem;
   }
+
   
 
   .header-kop-1 {
     position: flex;
-    width: 734px;
-    top: 0;
-    left: 0;
     font-family: "Hyundai Sans Head Office-Bold", Helvetica;
     font-weight: 700;
     color: #002e6b;
-    font-size: 72px;
+    font-size: 9rem;
     letter-spacing: 0;
-    line-height: 70px;
+    line-height: 100%;
+    margin-bottom: 2%;
   }
   
   .header-kop-2 {
     position: flex;
-    top: 0;
-    left: 0;
     font-family: "Hyundai Sans Head Office-Bold", Helvetica;
     font-weight: 700;
     color: #002e6b;
-    font-size: 41px;
+    font-size: 5rem;
     letter-spacing: 0;
-    line-height: 70px;
+    line-height: 150%;
     white-space: nowrap;
   }
 
+  .header-paragraaf {
+    width: 90%;
+    font-size: 4rem;
+    margin: 8% 0;
+  }
 
 
-
-
+  .auto-beeld {
+    display: flex;
+    z-index: 1;
+  }
 
   .navigatie-auto-beeld {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top: -4rem;
-    margin-left: 1.25rem;
+    margin-top: -10%;
+    margin-left: 5%;
     z-index: 1;
     flex-wrap: nowrap;
   }
@@ -268,47 +278,129 @@ html {
     display: flex;    
   }
 
-  /* .ontdek-meer {
-    font-family: "Hyundai Sans Head Office-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 13px;
-    letter-spacing: 4.95px;
-    line-height: normal;
-  } */
+
 
 
   .ontdek-meer {
     position: relative;
     margin-top: -1.8rem;
-    margin-left: 1.25rem;
     z-index: 1;
     font-family: "Hyundai Sans Head Office-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
-    font-size: 13px;
-    letter-spacing: 4.95px;
+    font-size: 3rem;
+    letter-spacing: 1rem;
     line-height: normal;
-  }
-
-
-  .pijl-links {
-    margin-right: 10rem;
-    display: flex;
-
-  }
-
-
-  .pijl-rechts {
   }
 
   .pijl-links,
   .pijl-rechts {
-      height: 15px;
+      height: 3.5rem;
       margin: 0 0 16px;
   }
 
 
+  .pijl-links {
+    margin-right: 10%;
+    display: flex;
+    position: relative;
+    right: -35%;
+
+  }
+
+
+
+
+
+  .CTA-balk-container {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 15vh;
+    background-color: white;
+    border: 1px solid purple;
+    margin: 0 auto;
+    z-index: 8;
+    border-radius: 0.75rem;
+    background: var(--White, #FFF);
+    box-shadow: 0px 31px 81px 0px rgba(0, 17, 77, 0.20);
+  }
+
+
+  .CTA-balk {
+    height: 25%;
+  }
+
+
+  .private-lease-nu {
+
+    color: var(--Primary-blue, #002E6B);
+    text-align: center;
+    font-family: "Hyundai Sans Head Office";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 2%;
+  }
+
+  .header-button {
+    display: flex;
+    width: 80%;
+    height: 5vh;
+    margin: 0 auto;
+    background: var(--Primary-blue, #002E6B);
+    color: white;
+    border-radius: 5.282px;
+
+
+  }
+
+  .button-tekst {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-button-pijl {
+    height: 5vh;
+    width: 5vw;
+    margin-right: 5%;
+  }
+
+
+
+  /* .label {
+    width: 335px;
+    height: 48px;
+  }
+  
+  .label .text-wrapper {
+    position: fixed;
+    width: 335px;
+    top: 0;
+    left: 0;
+    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
+    font-weight: 700;
+    color: #c1c1c1;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+  } */
+
+  .einde {
+    height: 800px;
+    margin-top: 275px;
+  }
+
+
+  .einde-tekst {
+    color: white;
+    font-size: 5rem;
+  }
   .grote-schermen {
     display: none;
   }
@@ -509,7 +601,7 @@ line-height: 5.625rem;
   /* margin-left: 40%; */
   width: 30%;
   /* right:  -325px; */
-  right: -20.3125rem;
+  right: 20.3125rem;
   border-radius: 0.4375rem;
   background: var(--Primary-blue, #002E6B);
 }
