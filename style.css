@@ -5,6 +5,8 @@
   width: 100%;
 }
 
+
+
 html {
   font-size: 16px; 
   @media screen and (max-width: 991px) {
@@ -232,10 +234,10 @@ html {
   .header-kop-1 {
     position: flex;
     font-family: "Hyundai Sans Head Office-Bold", Helvetica;
-    font-weight: 700;
+    font-weight: 600;
     color: #002e6b;
     font-size: 9rem;
-    letter-spacing: 0;
+    letter-spacing: -2px;
     line-height: 100%;
     margin-bottom: 2%;
   }
@@ -246,14 +248,13 @@ html {
     font-weight: 700;
     color: #002e6b;
     font-size: 5rem;
-    letter-spacing: 0;
-    line-height: 150%;
+    letter-spacing: -2px;
     white-space: nowrap;
   }
 
   .header-paragraaf {
     width: 90%;
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin: 8% 0;
   }
 
@@ -316,9 +317,8 @@ html {
     display: flex;
     position: relative;
     width: 90%;
-    height: 15vh;
+    height: 21vh;
     background-color: white;
-    border: 1px solid purple;
     margin: 0 auto;
     z-index: 8;
     border-radius: 0.75rem;
@@ -337,69 +337,210 @@ html {
     color: var(--Primary-blue, #002E6B);
     text-align: center;
     font-family: "Hyundai Sans Head Office";
-    font-size: 3rem;
+    font-size: 5rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 150%;
-    margin-top: 2%;
+    margin: 5% 0;
   }
 
-  .header-button {
+  .CTA-button {
     display: flex;
     width: 80%;
-    height: 5vh;
+    height: 7vh;
     margin: 0 auto;
     background: var(--Primary-blue, #002E6B);
     color: white;
     border-radius: 5.282px;
-
-
   }
 
   .button-tekst {
     display: flex;
     align-items: center;
-    font-size: 4rem;
+    font-size: 5rem;
     height: 100%;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 12%;
   }
 
   .header-button-pijl {
     height: 5vh;
     width: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-right: 5%;
   }
 
 
 
-  /* .label {
-    width: 335px;
-    height: 48px;
+
+
+
+
+.voorwaarde-container {
+  margin: 5% 0;
+}
+
+
+.header-voorwaarde {
+  display: flex;
+  font-size: 2.5rem;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  line-height: 0;
+  
+
+
+  color: var(--Text-grey, #C1C1C1);
+font-family: "Hyundai Sans Head Office";
+font-style: normal;
+font-weight: 700;
+line-height: 133%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all inclusive sectie */
+
+  .achtergrond-container {
+    background-color: #f2f8ff;
+
+  }
+
+
+  .all-inclusive-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 85%;
+    margin-bottom: 5%;
+  }
+
+
+  .all-kop-1 {
+    font-size: 3rem;
+    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
+    color: var(--Primary-blue, #002E6B);
+    margin-top: 5%;
+  }
+
+
+  .all-kop-2 {
+    font-size: 5rem;
+    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
+    color: var(--Primary-blue, #002E6B);
+    margin-bottom: 5%;
+
+  }
+
+
+
+
+  .all-lijst > * {
+    font-size: 3rem;
+    font-family: "Hyundai Sans Head Office-Regular", Helvetica;
+  }
+
+
+
+
+  .card-container {
+    display: flex;
+    position: relative;
+    top: -7vh;
+
+    /* align-items: flex-start; */
+    border-radius: 16.6px;
+    width: 90vw;
+    height: 15vh;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  .card-container:not(:first-child) {
+    margin-top: 2.5vh;
+}
+
+.card-container:last-child {
+    margin-bottom: 2.5vh
+}
+
+
+  
+    .card-icoontje {
+    position: relative;
+    width: 10vw;
+    height: 10vh;
+    margin: auto 0;
+    margin-left: 5%;
+
+  }
+
+  .card-tekst {
+    font-size: 5rem;
+    margin: auto 0;
+    margin-left: 15vw;
+    color: var(--Primary-blue, #002E6B);
   }
   
-  .label .text-wrapper {
-    position: fixed;
-    width: 335px;
-    top: 0;
-    left: 0;
-    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
-    font-weight: 700;
-    color: #c1c1c1;
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 16px;
-  } */
+
+
+
+
+  /* sectie frisse kijk slider */
+  .achtergrond-container-wit {
+    width: 100%;
+    background-color: white;
+
+  }
+
+
+
+    .container-slider {
+      width: 80%%;
+
+    }
+
+    .slider-kop-1 {
+      text-align: center;
+      font-size: 4rem;
+      color: var(--Primary-blue, #002E6B);
+    }
+
+    .slider-kop-2 {
+      text-align: center;
+      font-size: 7rem;
+      color: var(--Primary-blue, #002E6B);
+
+    }
+
+
+
+
+
 
   .einde {
     height: 800px;
     margin-top: 275px;
   }
 
-
   .einde-tekst {
     color: white;
     font-size: 5rem;
+    text-align: center;
   }
   .grote-schermen {
     display: none;
