@@ -1,0 +1,560 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+html {
+  font-size: 16px; 
+  @media screen and (max-width: 991px) {
+    font-size: 62.5%;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 50%;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 45%;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+
+  .top-balk {
+    display: flex;
+    justify-content: space-around;
+    height: 6.625rem;
+    box-shadow: 0px 31px 81px #00104c33;
+    background-color: #ffffff;
+  }
+  
+  .logo-hyundai{
+    max-width: 35%;
+  }p
+  
+  .keurmerk {
+    max-width: 7%;
+    max-height: 50%;
+    align-items: center;
+    margin: auto 0;
+    margin-left: 35%
+  }
+  
+
+
+  #header {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .nieuw-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 7.14px;
+    padding: 2.86px 15.71px;
+    background-color: var(--light-grey);
+    border-radius: 31.43px;
+    width: 25%;
+    border-radius: 1.96431rem;
+    background: var(--Light-grey, #F0F0F0);
+  }
+
+  .nieuw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-kop-1 {
+    position: flex;
+    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
+    font-weight: 700;
+    color: #002e6b;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+  }
+  
+  .header-kop-2 {
+    position: flex;
+    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
+    font-weight: 700;
+    color: #002e6b;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 60px;
+    white-space: nowrap;
+  }
+
+
+  .header-paragraaf {
+    display: flex;
+    font-family: "Hyundai Sans Head Office-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 5%;
+  }
+
+
+  .auto-beeld-container {
+  }
+
+  .auto-beeld {
+  }
+
+  .container-blok {
+    display: block;
+  }
+
+
+  .navigatie-auto-beeld {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: -4rem;
+    margin-left: 1.25rem;
+    z-index: 1;
+    flex-wrap: nowrap;
+  }
+
+  .pijlen {
+    display: flex;    
+  }
+
+  .ontdek-meer {
+    font-family: "Hyundai Sans Head Office-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 4.95px;
+    line-height: normal;
+  }
+
+
+  .pijl-links {
+    margin-right: 10rem;
+    display: flex;
+
+  }
+
+
+  .pijl-rechts {
+  }
+
+  .pijl-links,
+  .pijl-rechts {
+      height: 15px;
+      margin: 0 0 16px;
+  }
+
+
+  .grote-schermen {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:992px) {
+
+  .top-balk {
+    display: flex;
+    justify-content: space-around;
+    height: 8.625rem;
+    box-shadow: 0px 31px 81px #00104c33;
+    background-color: #ffffff;
+  }
+  
+  .logo-hyundai{
+    max-width: 35%;
+  }
+  
+  .keurmerk {
+    max-width: 7%;
+    max-height: 50%;
+    align-items: center;
+    margin: auto 0;
+    margin-left: 35%
+  }
+
+  #header {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .nieuw-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 7.14px;
+    padding: 2.86px 15.71px;
+    background-color: var(--light-grey);
+    border-radius: 31.43px;
+    width: 25%;
+    border-radius: 1.96431rem;
+    background: var(--Light-grey, #F0F0F0);
+  }
+
+  .nieuw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .header-kop-1 {
+    position: flex;
+    width: 734px;
+    top: 0;
+    left: 0;
+    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
+    font-weight: 700;
+    color: #002e6b;
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 70px;
+  }
+  
+  .header-kop-2 {
+    position: flex;
+    top: 0;
+    left: 0;
+    font-family: "Hyundai Sans Head Office-Bold", Helvetica;
+    font-weight: 700;
+    color: #002e6b;
+    font-size: 41px;
+    letter-spacing: 0;
+    line-height: 70px;
+    white-space: nowrap;
+  }
+
+
+
+
+
+
+  .navigatie-auto-beeld {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: -4rem;
+    margin-left: 1.25rem;
+    z-index: 1;
+    flex-wrap: nowrap;
+  }
+
+  .pijlen {
+    display: flex;    
+  }
+
+  /* .ontdek-meer {
+    font-family: "Hyundai Sans Head Office-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 4.95px;
+    line-height: normal;
+  } */
+
+
+  .ontdek-meer {
+    position: relative;
+    margin-top: -1.8rem;
+    margin-left: 1.25rem;
+    z-index: 1;
+    font-family: "Hyundai Sans Head Office-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 4.95px;
+    line-height: normal;
+  }
+
+
+  .pijl-links {
+    margin-right: 10rem;
+    display: flex;
+
+  }
+
+
+  .pijl-rechts {
+  }
+
+  .pijl-links,
+  .pijl-rechts {
+      height: 15px;
+      margin: 0 0 16px;
+  }
+
+
+  .grote-schermen {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+  .grote-schermen {
+    display: block;
+  }
+  
+
+
+
+  /* navbar grote schermen */
+  .top-balk {
+    display: flex;
+    justify-content: space-around;
+    height: 8.625rem;
+    box-shadow: 0px 31px 81px #00104c33;
+    background-color: #ffffff;
+  }
+  
+  .logo-hyundai{
+    max-width: 25%;
+  }
+  
+  .keurmerk {
+    max-width: 5%;
+    max-height: 50%;
+    align-items: center;
+    margin: auto 0;
+    margin-left: 35%
+  }
+
+
+
+
+  /* header section */
+  #header {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+
+  .nieuw-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 7.14px;
+    padding: 2.86px 15.71px;
+    background-color: var(--light-grey);
+    border-radius: 31.43px;
+    width: 25%;
+    border-radius: 1.96431rem;
+    background: var(--Light-grey, #F0F0F0);
+  }
+
+  .nieuw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+  /* .ontdek-meer {
+    position: relative;
+    margin-top: -1.8rem;
+    margin-left: 1.25rem;
+    z-index: 1;
+    font-family: "Hyundai Sans Head Office-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 4.95px;
+    line-height: normal;
+  } */
+
+
+
+  .header-rij {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+.container-links {
+  margin-left: 7%;
+}
+
+.header-kop-1 {
+  color: var(--Primary-blue, #002E6B);
+  font-family: "Hyundai Sans Head Office";
+  font-size: 5.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.625rem;
+}
+
+.header-kop-2 {
+  color: var(--Primary-blue, #002E6B);
+font-family: "Hyundai Sans Head Office";
+font-size: 3.1875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 5.625rem;
+}
+
+
+.text-bold {
+  color: black;
+  font-family: "Hyundai Sans Head Office";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%;
+}
+
+
+.tekst-normaal {
+  color: var(--Black, #000);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.CTA-balk-container {
+  position: relative;
+}
+
+.CTA-balk {
+  display: inline-flex;
+  position: relative;
+  padding: 1.5% 1%;
+  align-items: center;
+  gap: 11.3125rem;
+  margin-left: 3%;
+  z-index: 999;
+  width: 52%;
+  order: 1;
+  bottom: 550px;
+  /* bottom: 34.375rem; */
+
+
+
+
+  border-radius: 0.75rem;
+  background: var(--White, #FFF);
+  box-shadow: 0px 31px 81px 0px rgba(0, 17, 77, 0.20);
+}
+
+
+
+
+
+  /* .ontdek-meer {
+    font-family: "Hyundai Sans Head Office-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 4.95px;
+    line-height: normal;
+  } */
+
+.header-button {
+  display: flex;
+  position: relative;
+  padding: 3% 1.5%;
+  align-items: center;
+  gap: 1.75rem;
+  /* margin-left: 40%; */
+  width: 30%;
+  /* right:  -325px; */
+  right: -20.3125rem;
+  border-radius: 0.4375rem;
+  background: var(--Primary-blue, #002E6B);
+}
+
+.private-lease-nu {
+  color: var(--Primary-blue, #002E6B);
+  font-family: "Hyundai Sans Head Office";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  
+}
+
+
+.header-button-tekst {
+  color: var(--White, #FFF);
+  font-family: "Hyundai Sans Head Office";
+  font-size: 1.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.arrow-button {
+  width: 1.5rem;
+  height: 0.8125rem;
+  }
+
+
+.header-auto-beeld {
+  z-index: 1;
+}
+
+
+
+/* .header-voorwaarde {
+  color: var(--Text-grey, #C1C1C1);
+  font-family: "Hyundai Sans Head Office";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+} */
+}
+
+
+
