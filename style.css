@@ -317,7 +317,7 @@ html {
     display: flex;
     position: relative;
     width: 90%;
-    height: 21vh;
+    height: 24vh;
     background-color: white;
     margin: 0 auto;
     z-index: 8;
@@ -510,7 +510,8 @@ line-height: 133%;
 
 
     .container-slider {
-      width: 80%%;
+      width: 80%;
+      margin: 0 auto;
 
     }
 
@@ -525,6 +526,22 @@ line-height: 133%;
       font-size: 7rem;
       color: var(--Primary-blue, #002E6B);
 
+      margin-bottom: 20%;
+
+    }
+
+    /* carousel */
+    .carousel-container {
+      display: flex;
+    }
+
+    .carousel-afbeelding-1 {
+      flex: 0 0 75%; /* Geef de eerste afbeelding 75% flex-basis */
+      margin-right: 5%;
+    }
+    
+    .carousel-afbeelding-2 {
+      flex: 0 0 20%; /* Geef de tweede afbeelding 20% flex-basis */
     }
 
 
